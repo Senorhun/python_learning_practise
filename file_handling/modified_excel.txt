@@ -1,0 +1,9 @@
+GGooooddss||QQuuaannttiittyy||VVaalluuee||PPrriiccee
+
+aappppllee||5500||330000||1155000000
+
+bbaannaannaa||4400||440000||1166000000
+
+lleemmoonn||3300||550000||1155000000
+
+nnuutt||2200||22550000||5500000000

@@ -1,0 +1,5 @@
+Goods|Quantity|Value|Price
+apple|50|300|15000
+banana|40|400|16000
+lemon|30|500|15000
+nut|20|2500|50000
