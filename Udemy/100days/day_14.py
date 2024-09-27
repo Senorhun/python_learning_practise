@@ -26,10 +26,10 @@ import random
 
 def question():
     score = 0
-    options = random.sample(list(people),2)
+    options = random.sample(people,2)
     option_1 = options[0]
     while True:
-        options = random.sample(list(people),2)
+        options = random.sample(people,2)
         option_2 = options[1]
         option_1_str = (f"Compare A: {option_1["name"]} whose occupation is {option_1["occupation"]} who is from {option_1["country"]} \n")
         option_2_str = (f"Against B: {option_2["name"]} whose occupation is {option_2["occupation"]} who is from {option_2["country"]} ")
