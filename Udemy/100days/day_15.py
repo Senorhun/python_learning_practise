@@ -42,7 +42,7 @@ def payment(user_result, container_amount, container_data):
                 print(f"Thank you, here is your remaining change ${round(dollar_input-container_data[user_result][3],3)}")
                 return True
             else:
-                print(f"Sorry, it is not enough for {user_result}, here is your change ${dollar_input}")
+                print(f"Sorry, it is not enough for {user_result}, here is your change ${round(dollar_input,2)}")
                 return False
         except ValueError:
             print("Only positive numeric input allowed!")
@@ -70,11 +70,11 @@ def create(version_selected, container_amount, container_data, user_result):
     else:
         is_enough_coffee = False
     if is_enough_water and is_enough_milk and is_enough_coffee:
-        container_amount["Water"][0] -= container_data[version_selected][0]
-        container_amount["Coffee"][0] -= container_data[version_selected][1]
-        container_amount["Milk"][0] -= container_data[version_selected][2]
         if payment(user_result, container_amount, container_data):
             print("Here is your " + version_selected +", enjoy!")
+            container_amount["Water"][0] -= container_data[version_selected][0]
+            container_amount["Coffee"][0] -= container_data[version_selected][1]
+            container_amount["Milk"][0] -= container_data[version_selected][2]
     else:
         refill_list = []
         if not is_enough_water:
