@@ -27,6 +27,6 @@ if __name__ == "__main__":
     selected_language = input("Which language do you want to answer in? (angol, német, spanyol): ")
     feedback_choice = input("Do you want feedback? (yes): ")
     is_feedback = feedback_choice == "yes"
-    result = quiz(language = selected_language, is_feedback = is_feedback)
+    result = quiz(selected_language = selected_language, is_feedback = is_feedback)
     print(f"\nElért pontszám {result} / {len(question_bank)} pont")
     print(f"Ez összesen {(result / len(question_bank)):.1%}")
