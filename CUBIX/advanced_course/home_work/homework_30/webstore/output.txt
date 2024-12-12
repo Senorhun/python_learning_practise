@@ -1,0 +1,5 @@
+id: 0,  name: Asus 345D,  price: 10$, type: TV, available: True
+id: 1,  name: Sony bigLama,  price: 5$, type: LAPTOP, available: False
+id: 2,  name: Asus 345A,  price: 10$, type: TV, available: False
+id: 3,  name: Asus 456B,  price: 11$, type: TV, available: False
+id: 4,  name: Asus 678D,  price: 13$, type: TV, available: False

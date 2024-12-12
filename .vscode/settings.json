@@ -1,8 +1,14 @@
 {
-    "python.terminal.activateEnvironment": true,
-    "python.pythonPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
-    "terminal.integrated.shellArgs.windows": [
-        "/k",
-        "${workspaceFolder}\\.venv\\Scripts\\activate"
-    ]
+  "python.terminal.activateEnvironment": true,
+  "python.pythonPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+  "terminal.integrated.shellArgs.windows": [
+    "/k",
+    "${workspaceFolder}\\.venv\\Scripts\\activate"
+  ],
+  "python.analysis.extraPaths": [
+    "./CUBIX/advanced_course/home_work/030_homework/webstore/store",
+    "./CUBIX/advanced_course/home_work/030_homework/webstore/stores",
+    "./CUBIX/advanced_course/home_work/030_homework/webstore"
+  ],
+  "cSpell.words": ["Alza"]
 }
