@@ -1,0 +1,9 @@
+2024-12-17 14:17:19,561 INFO     argum.py:34 - Sum of arguments: 0
+2024-12-17 14:44:29,345 INFO     argum.py:15 - Sum of arguments: 0
+2024-12-17 14:53:48,528 INFO     argum.py:15 - Sum of arguments: 0
+2024-12-17 15:02:19,592 INFO     argum.py:15 - Sum of arguments: 0
+2024-12-17 15:02:41,190 INFO     argum.py:15 - Sum of arguments: 0
+2024-12-17 15:16:15,459 INFO     password.py:9 - Enter log in information:
+2024-12-17 15:16:24,338 DEBUG    password.py:11 - Username entered: Bono
+2024-12-17 15:16:27,029 INFO     password.py:14 - Password entered (hidden for security)
+2024-12-17 15:16:27,029 INFO     password.py:16 - Program completed successfully.
