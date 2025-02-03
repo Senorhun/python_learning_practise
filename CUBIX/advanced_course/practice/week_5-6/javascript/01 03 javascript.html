@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>JavaScript példa</title>
+        <script>
+            function beszur() {
+                const gyumolcsNev = document.getElementById('gyumolcs').value;
+                const gyumolcsElem = document.createElement('li');
+                gyumolcsElem.innerHTML = gyumolcsNev;
+                document.getElementById('gyumolcsok').appendChild(gyumolcsElem);
+            }
+        </script>
+    </head>
+    <body>
+        Gyümölcsök:
+        <ul id="gyumolcsok">
+            <li>alma</li>
+            <li>banán</li>
+            <li>narancs</li>
+        </ul>
+        <input type="text" id="gyumolcs">
+        <button onclick="beszur()">Beszúr</button>
+    </body>
+</html>
